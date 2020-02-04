@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+}
+
+.wrapper {
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header {
+  background-image: url('./img/DapperCat.jpg');
+  height: 250px;
+  /* padding done to see the cat better */
+  /* http://dressacat.com/ */
+  padding-top: 40px;
+  background-repeat: no-repeat;
+  background-size: center;
+  background-position: center;
+}
+
+h1,
+h2 {
+  text-align:center;
+  padding: 20px 0 20px 0;
+  font-family: 'Caveat Brush', cursive;
+  color: #0066ff
+}
+
+h1 {
+  font-size: 5em;
+}
+
+h2 {
+  font-size: 2.5em;
+}
+
+/* Form Styles */
+
+input,
+textarea {
+  font-family: inherit;
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
+form {
+  width: 60%;
+  margin: auto;
+}
+
+fieldset {
+  border: none;
+  padding: 15px 0;
+  margin-top: 15px;
+}
+
+legend {
+  width: 100%;
+  border-bottom: 1px solid black;
+  padding-bottom: 2px;
+  font-size: 1.5em;
+}
+
+input,
+label {
+  display: block;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 1.1em;
+  border: none;
+  border-radius: 10px;
+  background-color: #eaeaea;
+  color: #1d1c1c;
+  box-shadow: 0 1px 0 rgb(0, 0, 0, .3) inset;
+}
+
+label {
+  padding: 25px 0 15px 0;
+}
+
+input[type="submit"] {
+  position: relative;
+  padding: 15px;
+  color: #040404;
+  margin: 0 auto;
+  background-color: #0066ff;
+  text-align: center;
+  border: 1px solid #013e9a;
+  border-width: 1px 1px 3px;
+  font-size: 1.3em;
+}
+
+/* Table Styles */
+
+table {
+  table-layout: fixed;
+  width: 100%;
+  border: 1px solid #333;
+  border-collapse: collapse;
+  background-color: #1d1c1c;
+}
+
+caption {
+  padding: 15px;
+}
+
+th,
+td {
+  padding: 10px;
+}
+
+th {
+  background-color: #0066ff85;
+}
+
+thead th {
+  width: 25%;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #eaeaea;
+}
+tbody tr:nth-child(odd) {
+  background-color: #fff;
+}
+
+thead {
+  color: red;
+}
+
+tr td {
+  text-align: center;
+}
